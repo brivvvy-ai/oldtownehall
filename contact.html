@@ -24,10 +24,7 @@
   <main class="section">
     <div class="container contact-form">
       <div class="panel">
-        <h1 class="alt-section-title">
-        Tell us about your event
-          <span></span>
-        </h1>
+        <h1 class="alt-section-title">Tell us about your event</h1>
         <form class="form" action="https://formspree.io/f/xdalpdrp" method="POST">
           <div class="field">
             <label for="full-name">
@@ -38,8 +35,7 @@
           <div class="field">
             <label for="telephone">
               Your phone:<span class="ast-red">*</span><br />
-              <small>Format: 312-555-1212</small>
-              <input id="telephone" type="tel" name="telephone" placeholder="312-555-1212" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+              <input id="telephone" type="tel" name="telephone" placeholder="(312) 555 1212" minlength="7" maxlength="16" required>
             </label>            
           </div>
           <div class="field">
