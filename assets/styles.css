@@ -565,6 +565,13 @@ textarea{
     max-width: 500px;
     margin: 0 auto;
   }
+
+  .alt-section-title {
+    span {
+      font-size: 34px;
+      padding-top: 20px;
+    }
+  }
 }
 
 /* Slightly nicer spacing for larger screens */
